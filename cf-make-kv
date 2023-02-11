@@ -1,2 +1,2 @@
 #!/bin/sh
-`dirname $0`/cf-make-kv.mjs
+`dirname $0`/cf-make-kv.mjs "$@"
