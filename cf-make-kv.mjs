@@ -11,7 +11,7 @@ cf-make-kv: makes a cloudflare workers KV for the current project
 `;
 
 function arg(name, idx, def) {
-    if (argv[name.charAt[0]]) return argv[name.charAt(0)];
+    if (argv[name.charAt(0)]) return argv[name.charAt(0)];
     else if (argv[name]) return argv[name];
     else if ((idx || idx === 0) && argv._.length > idx) return argv._[idx];
     else return def;
