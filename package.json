@@ -1,0 +1,21 @@
+{
+  "name": "bin",
+  "version": "1.0.0",
+  "description": "the scripts i use on my machine!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viomck/bin.git"
+  },
+  "author": "Violet McKinney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viomck/bin/issues"
+  },
+  "homepage": "https://github.com/viomck/bin#readme",
+  "dependencies": {
+    "zx": "^7.1.1"
+  }
+}
