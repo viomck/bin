@@ -1,0 +1,5 @@
+#!/bin/sh
+curl "$IFTTT_NOTIFY_LINK" \
+    -X POST \
+    -H "Content-Type: application/json" \
+    -d '{"value1":"'"$@"'"}'
