@@ -1,7 +1,8 @@
 #!/usr/bin/env zx
 
 const HELP = `
-cf-make-kv: makes a cloudflare workers KV for the current project
+cf-make-kv: makes a cloudflare workers KV and preview KV for the current
+            project
 
 -n, --name,    arg 0: set the name of the KV (default: "KV")
 -b, --binding, arg 1: set the binding of the KV returned in the example 
